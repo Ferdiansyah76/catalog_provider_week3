@@ -13,5 +13,13 @@ void main () {
 
 //1. STATE MODEL (BUSINESS LOGIC) ---
 class CartModel extends ChangeNotifier {
-  
+  final List<String> _items = [];
+
+  List<String> get items => _items;
+
+  void add(String itemName) {
+    _items.add(itemName);
+
+    notifyListeners();
+  }
 }
