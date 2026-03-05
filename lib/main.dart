@@ -10,3 +10,8 @@ void main () {
     ),
   );
 }
+
+//1. STATE MODEL (BUSINESS LOGIC) ---
+class CartModel extends ChangeNotifier {
+  
+}
