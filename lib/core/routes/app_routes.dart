@@ -1,3 +1,7 @@
+import 'package:flutter/material.dart';
+import '../../features/cart/presentation/pages/catalog_page.dart';
+import '../../features/cart/presentation/pages/cart_page.dart';
+
 // Sebelumnya: routes didefinisikan langsung di MaterialApp
 // Setelah refactor: dipindah ke file terpisah
 class AppRouter {

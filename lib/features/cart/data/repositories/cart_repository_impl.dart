@@ -1,3 +1,6 @@
+import '../../domain/entities/product.dart';
+import '../../domain/repositories/cart_repository.dart';
+
 // Implementasi konkret dari CartRepository
 // Di sini bisa diganti dengan API call, database, dll
 

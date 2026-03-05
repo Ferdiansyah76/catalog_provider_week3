@@ -1,3 +1,5 @@
+import '../entities/product.dart';
+
 // Abstract class: kontrak yang harus diikuti oleh implementasi
 // Prinsip Dependency Inversion (DIP) dari SOLID
 
